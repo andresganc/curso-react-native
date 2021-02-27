@@ -1,20 +1,26 @@
 
-import React, { Fragment } from 'react'
+import React from 'react'
 
+import styled, {css} from 'styled-components/native'
 import { View, Text } from 'react-native'
 
-// Styles
-import styles from './css/menu-basic-01.module.css'
 
 const menuBasic01 = () => {
     return (
-        <View>
-            <div className={styles.div}>
-            <Text> Hola </Text>
-            </div>
+        <Container>
+            <View>
+                <Text> Hola como estas </Text> 
+            </View>
             
-        </View>
+        </Container>
     )
 }
+
+const Container = styled.View `
+    background-color: tomato; 
+    color: #fff;
+    width: 100%;
+    height: 100px;
+`
 
 export default menuBasic01
