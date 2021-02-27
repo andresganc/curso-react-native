@@ -1,15 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native'
 
 // Componentes NC
 import Menu from './components/menus/menu-basic-01.jsx'
-import HelloWorld from './screens/1-basico/HelloWorld.js';
+import Button from './components/buttons/button'
+import HelloWorld from './screens/1-basico/HelloWorld.js'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Menu />
+      
+
+      <Button> EXITO </Button>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
 
