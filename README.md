@@ -35,3 +35,9 @@
     $ npm run web
     $ npm run android
     $ npm run ios
+
+
+
+### Styled Components
+
+    - npm i @types/styled-components
