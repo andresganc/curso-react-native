@@ -20,9 +20,9 @@
     
     - Luego, ejecute los siguientes comandos para crear un nuevo proyecto React Native llamado "MyProject":
 
-    $ expo init AwesomeProject
+    $ expo init my-project
 
-    $ cd AwesomeProject
+    $ cd my-project
     $ npm start 
     
     - You can also use: expo start
@@ -39,5 +39,7 @@
 
 
 ### Styled Components
+
+    - npm i styled-components
 
     - npm i @types/styled-components
