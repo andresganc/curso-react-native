@@ -35,6 +35,7 @@
     $ npm run web
     $ npm run android
     $ npm run ios
+    $ Codigo QR (Android - IOS)
 
 
 
