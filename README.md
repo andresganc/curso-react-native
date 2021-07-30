@@ -44,3 +44,15 @@
     - npm i styled-components
 
     - npm i @types/styled-components
+
+
+### Icons - FontAwesome
+
+    - Iconos para el framework de react native
+
+        $ npm i --save react-native-svg # **
+        $ npm i --save @fortawesome/fontawesome-svg-core
+        $ npm i --save @fortawesome/free-solid-svg-icons
+        $ npm i --save @fortawesome/free-brands-svg-icons
+        $ npm i --save @fortawesome/free-regular-svg-icons
+        $ npm i --save @fortawesome/react-native-fontawesome
