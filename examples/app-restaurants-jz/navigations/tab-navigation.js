@@ -71,7 +71,6 @@ export default function Navigation() {
                 screenOptions={ ({ route }) => ({
                     tabBarIcon: ({ color }) => screenOptions(route, color)
                 }) }
-                tabBarBackground='#424242'
             >
                 <Tab.Screen 
                     name='restaurants'
